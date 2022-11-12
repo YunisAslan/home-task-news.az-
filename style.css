@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background-color: black;
+    height: 60px;
+}
+
+.top-bar span {
+    color: grey;
+    padding: 2px;
+}
+
+.top-bar span i {
+    padding: 10px;
+}
+
+.top-bar ul,
+.top-bar a {
+    color: white;
+    display: flex;
+    list-style: none;
+}
+
+.top-bar li {
+    padding: 0px 5px;
+}
+
+.top-bar a:hover {
+    color: grey;
+}
+
+
+.logo img {
+    padding: 25px;
+    background-color: white;
+}
+
+.logo-currency {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 25px;
+}
+
+.logo-currency img {
+    padding-left: 60px;
+}
+
+.logo-currency ul,
+li {
+    display: flex;
+    list-style: none;
+
+}
+
+.logo-currency li {
+    padding: 25px 30px 35px;
+    border: 1px solid rgba(18, 153, 142, 0.534);
+    height: 50px;
+    border-radius: 100%;
+    width: 50px;
+
+}
+
+.currency li {
+    padding: 10px 20px 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.currency li:hover {
+    background-color: rgb(131, 107, 131);
+}
+
+.navs {
+    background-color: red;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navs ul,
+li,
+a {
+    display: flex;
+    padding: 5px 5px 5px 15px;
+    list-style: none;
+    color: white;
+
+}
+
+.navs a {
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.navs a:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -21px;
+
+}
+
+.navs a:hover:after {
+    width: 100%;
+}
+
+
+.lupa i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 15px;
+}
+
+h2 {
+    display: inline-block;
+    font-family: source sans pro, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    width: 190px;
+    height: 45px;
+    padding: 12px 35px;
+    margin: 17px 20px 13px 30px;
+}
+
+.containers {
+    display: flex;
+
+
+}
+
+.containers ul img {
+    width: 290px;
+    height: 170px;
+    padding: 20px 20px 10px;
+}
+
+
+.containers figcaption {
+    color: red;
+    padding: 1px 10px 10px 20px;
+}
